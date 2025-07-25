@@ -43,7 +43,7 @@ export default function Home() {
             animate={{ opacity: 1, x: 0 }}
             transition={{ duration: 0.8 }}
           >
-            <span className="gradient-text font-medium">Covenant</span>
+            <span className="gradient-text font-medium">Covenant Capital Consulting</span>
           </motion.div>
           <motion.div 
             className="hidden md:flex items-center gap-12"
@@ -86,7 +86,7 @@ export default function Home() {
             className="mb-8"
             variants={fadeInUp}
           >
-            <span className="text-sm uppercase tracking-widest text-gray-light">AI-Powered Business Transformation</span>
+            <span className="text-sm uppercase tracking-widest text-gray-light">Process Automation Consulting</span>
           </motion.div>
           
           <motion.h1 
@@ -100,9 +100,9 @@ export default function Home() {
             className="subheadline mb-16 max-w-3xl mx-auto"
             variants={fadeInUp}
           >
-            Deploy intelligent AI agents and autonomous workflows that transform your business operations. 
-            Our cutting-edge automation leverages machine learning, natural language processing, and 
-            predictive analytics to create self-optimizing systems.
+            Expert consulting services to transform your business through intelligent process automation. 
+            We design and implement custom solutions using AI, machine learning, and enterprise integration 
+            platforms to streamline operations and maximize efficiency.
           </motion.p>
 
           <motion.div 
@@ -110,10 +110,10 @@ export default function Home() {
             variants={fadeInUp}
           >
             <a href="#signup" className="btn-primary">
-              Deploy AI Agents
+              Schedule Consultation
             </a>
             <a href="#demo" className="btn-glass">
-              See AI in Action
+              View Case Studies
             </a>
           </motion.div>
 
@@ -122,10 +122,10 @@ export default function Home() {
             variants={fadeInUp}
           >
             {[
-              { value: "10x", label: "Faster Processing" },
-              { value: "500+", label: "AI Agents Deployed" },
-              { value: "87%", label: "Task Automation" },
-              { value: "24/7", label: "Autonomous Operations" }
+              { value: "200+", label: "Projects Delivered" },
+              { value: "85%", label: "Process Efficiency Gains" },
+              { value: "$50M+", label: "Client Savings" },
+              { value: "15+", label: "Years Experience" }
             ].map((stat, i) => (
               <div key={i} className="text-center">
                 <div className="text-3xl md:text-4xl font-light mb-2">
@@ -159,47 +159,47 @@ export default function Home() {
             viewport={{ once: true }}
           >
             <h2 className="headline-lg mb-6">
-              AI-Powered Automation<br />
-              <span className="text-gray-light">Beyond Traditional Integration</span>
+              Our Consulting Services<br />
+              <span className="text-gray-light">End-to-End Process Automation</span>
             </h2>
           </motion.div>
 
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
             {[
               {
-                title: "AI Agent Orchestration",
-                description: "Deploy autonomous agents that handle complex multi-step processes with human-like reasoning",
-                icon: "🤖",
+                title: "Process Assessment & Design",
+                description: "We analyze your workflows and design intelligent automation solutions tailored to your business needs",
+                icon: "📋",
                 color: "from-primary to-accent-cyan"
               },
               {
-                title: "Predictive Analytics",
-                description: "Machine learning models that forecast issues and optimize workflows before problems arise",
-                icon: "📊",
+                title: "Integration Implementation",
+                description: "Expert implementation of Boomi, Celigo, MuleSoft, and other enterprise integration platforms",
+                icon: "🔗",
                 color: "from-accent-cyan to-accent-purple"
               },
               {
-                title: "Natural Language Processing",
-                description: "Convert plain English requests into sophisticated automated workflows instantly",
-                icon: "🧠",
+                title: "AI & ML Solutions",
+                description: "Custom AI and machine learning models to automate decision-making and predict outcomes",
+                icon: "🤖",
                 color: "from-accent-purple to-primary"
               },
               {
-                title: "Self-Healing Systems",
-                description: "AI-driven error detection and automatic remediation without human intervention",
-                icon: "🔧",
+                title: "Cloud Migration & Optimization",
+                description: "Seamless migration to AWS, Azure, or hybrid cloud with automated workflows",
+                icon: "☁️",
                 color: "from-primary to-accent-pink"
               },
               {
-                title: "Intelligent Data Synthesis",
-                description: "AI agents that understand context across Boomi, Celigo, AWS, Snowflake, and more",
-                icon: "🔗",
+                title: "Data Pipeline Architecture",
+                description: "Design and implement robust data pipelines using Snowflake, Databricks, and modern ETL tools",
+                icon: "📊",
                 color: "from-accent-pink to-accent-cyan"
               },
               {
-                title: "Adaptive Learning",
-                description: "Systems that continuously improve performance based on historical patterns and outcomes",
-                icon: "📈",
+                title: "Ongoing Support & Training",
+                description: "Continuous optimization, monitoring, and team training to ensure long-term success",
+                icon: "🎯",
                 color: "from-accent-cyan to-primary"
               }
             ].map((feature, i) => (
@@ -232,8 +232,8 @@ export default function Home() {
             whileInView={{ opacity: 1 }}
             viewport={{ once: true }}
           >
-            <h2 className="headline-md mb-6">AI-Enhanced Enterprise Integrations</h2>
-            <p className="subheadline">Our AI agents seamlessly orchestrate your entire tech stack</p>
+            <h2 className="headline-md mb-6">Platform Expertise</h2>
+            <p className="subheadline">We're certified experts in leading automation and integration platforms</p>
           </motion.div>
 
           <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-5 gap-8">
@@ -266,16 +266,16 @@ export default function Home() {
             viewport={{ once: true }}
           >
             <h2 className="headline-lg mb-8">
-              AI Command Center<br />
-              <span className="gradient-text">for your operations</span>
+              Our Proven Approach<br />
+              <span className="gradient-text">to transformation</span>
             </h2>
             <p className="body-text mb-8">
-              Monitor your AI agents in action as they orchestrate complex workflows, predict bottlenecks, 
-              and autonomously optimize performance. Our neural network visualizes decision paths and 
-              learning patterns in real-time.
+              We combine deep technical expertise with strategic consulting to deliver solutions that work. 
+              Our team assesses, designs, implements, and optimizes automation workflows that seamlessly 
+              integrate with your existing systems and scale with your business.
             </p>
             <a href="#" className="btn-primary inline-block">
-              Launch AI Dashboard
+              Learn Our Methodology
             </a>
           </motion.div>
 
@@ -294,16 +294,16 @@ export default function Home() {
               animate={{ y: [0, -20, 0] }}
               transition={{ duration: 4, repeat: Infinity }}
             >
-              <div className="text-sm text-gray-light">AI Agents Active</div>
-              <div className="text-2xl font-light gradient-text">42</div>
+              <div className="text-sm text-gray-light">Active Projects</div>
+              <div className="text-2xl font-light gradient-text">12</div>
             </motion.div>
             <motion.div 
               className="absolute -bottom-10 -left-10 glass-card p-4"
               animate={{ y: [0, 20, 0] }}
               transition={{ duration: 5, repeat: Infinity }}
             >
-              <div className="text-sm text-gray-light">Decisions/Hour</div>
-              <div className="text-2xl font-light gradient-text">8.7K</div>
+              <div className="text-sm text-gray-light">Avg ROI</div>
+              <div className="text-2xl font-light gradient-text">380%</div>
             </motion.div>
           </motion.div>
         </div>
@@ -319,31 +319,31 @@ export default function Home() {
             viewport={{ once: true }}
           >
             <h2 className="headline-lg mb-6">
-              The Power of<br />
-              <span className="gradient-text">Autonomous AI</span>
+              Why Choose<br />
+              <span className="gradient-text">Covenant Capital</span>
             </h2>
             <p className="subheadline max-w-3xl mx-auto">
-              Our AI agents don't just follow rules—they understand context, make decisions, 
-              and continuously evolve to optimize your business processes
+              We bring together deep expertise in AI, automation, and enterprise systems to deliver 
+              transformative solutions that drive real business value
             </p>
           </motion.div>
 
           <div className="grid md:grid-cols-3 gap-8 mb-16">
             {[
               {
-                title: "Cognitive Processing",
-                metric: "1M+",
-                description: "decisions per day using advanced neural networks"
+                title: "Enterprise Clients",
+                metric: "100+",
+                description: "Fortune 500 and mid-market companies transformed"
               },
               {
-                title: "Learning Rate",
-                metric: "3x",
-                description: "faster optimization through continuous machine learning"
+                title: "Process Efficiency",
+                metric: "75%",
+                description: "average reduction in manual processing time"
               },
               {
-                title: "Accuracy",
-                metric: "99.7%",
-                description: "prediction accuracy for workflow optimization"
+                title: "Implementation Speed",
+                metric: "6-12",
+                description: "weeks from assessment to full deployment"
               }
             ].map((item, i) => (
               <motion.div
@@ -372,9 +372,10 @@ export default function Home() {
             whileInView={{ opacity: 1 }}
             viewport={{ once: true }}
           >
-            "Covenant's AI agents transformed our operations entirely. They don't just automate—they think, 
-            learn, and optimize autonomously. <span className="gradient-text">It's like having a team of PhD data scientists 
-            and automation experts</span> working around the clock, making intelligent decisions faster than any human could."
+            "Covenant Capital Consulting transformed how we operate. Their team designed and implemented 
+            an intelligent automation strategy that <span className="gradient-text">reduced our processing time by 80% 
+            while improving accuracy</span>. They didn't just deliver technology—they understood our business 
+            and created solutions that actually work."
           </motion.blockquote>
           <div className="text-gray-light">
             <div className="font-medium">Sarah Chen</div>
@@ -393,18 +394,18 @@ export default function Home() {
           viewport={{ once: true }}
         >
           <h2 className="headline-lg mb-8">
-            Ready to deploy<br />
-            <span className="gradient-text">AI at scale?</span>
+            Ready to transform<br />
+            <span className="gradient-text">your operations?</span>
           </h2>
           <p className="subheadline mb-12 max-w-2xl mx-auto">
-            Join forward-thinking enterprises leveraging AI agents for autonomous operations
+            Let's discuss how intelligent automation can revolutionize your business processes
           </p>
           <div className="flex flex-col sm:flex-row gap-6 justify-center">
             <a href="#signup" className="btn-primary">
-              Deploy Your First Agent
+              Get Started Today
             </a>
             <a href="#contact" className="btn-glass">
-              Schedule AI Consultation
+              Request a Consultation
             </a>
           </div>
         </motion.div>
@@ -417,7 +418,7 @@ export default function Home() {
             <div>
               <h3 className="text-xl font-light mb-6 gradient-text">Covenant</h3>
               <p className="text-gray-light text-sm">
-                AI-powered automation and intelligent agents for the autonomous enterprise.
+                Expert consulting in process automation, AI implementation, and enterprise integration.
               </p>
             </div>
             <div>
